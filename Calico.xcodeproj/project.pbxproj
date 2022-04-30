@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2104B3281DC30C004D557B /* CalicoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104B2281DC30C004D557B /* CalicoApp.swift */; };
+		0A2104B5281DC30C004D557B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104B4281DC30C004D557B /* ContentView.swift */; };
+		0A2104B7281DC30D004D557B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2104B6281DC30D004D557B /* Assets.xcassets */; };
+		0A2104BA281DC30D004D557B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2104B9281DC30D004D557B /* Preview Assets.xcassets */; };
+		0A2104C4281DC30D004D557B /* CalicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104C3281DC30D004D557B /* CalicoTests.swift */; };
+		0A2104CE281DC30D004D557B /* CalicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104CD281DC30D004D557B /* CalicoUITests.swift */; };
+		0A2104D0281DC30D004D557B /* CalicoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104CF281DC30D004D557B /* CalicoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A2104C0281DC30D004D557B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A2104A7281DC30C004D557B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2104AE281DC30C004D557B;
+			remoteInfo = Calico;
+		};
+		0A2104CA281DC30D004D557B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A2104A7281DC30C004D557B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2104AE281DC30C004D557B;
+			remoteInfo = Calico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2104AF281DC30C004D557B /* Calico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2104B2281DC30C004D557B /* CalicoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoApp.swift; sourceTree = "<group>"; };
+		0A2104B4281DC30C004D557B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A2104B6281DC30D004D557B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A2104B9281DC30D004D557B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A2104BF281DC30D004D557B /* CalicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2104C3281DC30D004D557B /* CalicoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoTests.swift; sourceTree = "<group>"; };
+		0A2104C9281DC30D004D557B /* CalicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2104CD281DC30D004D557B /* CalicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoUITests.swift; sourceTree = "<group>"; };
+		0A2104CF281DC30D004D557B /* CalicoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2104AC281DC30C004D557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104BC281DC30D004D557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104C6281DC30D004D557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2104A6281DC30C004D557B = {
+			isa = PBXGroup;
+			children = (
+				0A2104B1281DC30C004D557B /* Calico */,
+				0A2104C2281DC30D004D557B /* CalicoTests */,
+				0A2104CC281DC30D004D557B /* CalicoUITests */,
+				0A2104B0281DC30C004D557B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2104B0281DC30C004D557B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2104AF281DC30C004D557B /* Calico.app */,
+				0A2104BF281DC30D004D557B /* CalicoTests.xctest */,
+				0A2104C9281DC30D004D557B /* CalicoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2104B1281DC30C004D557B /* Calico */ = {
+			isa = PBXGroup;
+			children = (
+				0A2104B2281DC30C004D557B /* CalicoApp.swift */,
+				0A2104B4281DC30C004D557B /* ContentView.swift */,
+				0A2104B6281DC30D004D557B /* Assets.xcassets */,
+				0A2104B8281DC30D004D557B /* Preview Content */,
+			);
+			path = Calico;
+			sourceTree = "<group>";
+		};
+		0A2104B8281DC30D004D557B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A2104B9281DC30D004D557B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A2104C2281DC30D004D557B /* CalicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2104C3281DC30D004D557B /* CalicoTests.swift */,
+			);
+			path = CalicoTests;
+			sourceTree = "<group>";
+		};
+		0A2104CC281DC30D004D557B /* CalicoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2104CD281DC30D004D557B /* CalicoUITests.swift */,
+				0A2104CF281DC30D004D557B /* CalicoUITestsLaunchTests.swift */,
+			);
+			path = CalicoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2104AE281DC30C004D557B /* Calico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2104D3281DC30D004D557B /* Build configuration list for PBXNativeTarget "Calico" */;
+			buildPhases = (
+				0A2104AB281DC30C004D557B /* Sources */,
+				0A2104AC281DC30C004D557B /* Frameworks */,
+				0A2104AD281DC30C004D557B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calico;
+			productName = Calico;
+			productReference = 0A2104AF281DC30C004D557B /* Calico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A2104BE281DC30D004D557B /* CalicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2104D6281DC30D004D557B /* Build configuration list for PBXNativeTarget "CalicoTests" */;
+			buildPhases = (
+				0A2104BB281DC30D004D557B /* Sources */,
+				0A2104BC281DC30D004D557B /* Frameworks */,
+				0A2104BD281DC30D004D557B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2104C1281DC30D004D557B /* PBXTargetDependency */,
+			);
+			name = CalicoTests;
+			productName = CalicoTests;
+			productReference = 0A2104BF281DC30D004D557B /* CalicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A2104C8281DC30D004D557B /* CalicoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2104D9281DC30D004D557B /* Build configuration list for PBXNativeTarget "CalicoUITests" */;
+			buildPhases = (
+				0A2104C5281DC30D004D557B /* Sources */,
+				0A2104C6281DC30D004D557B /* Frameworks */,
+				0A2104C7281DC30D004D557B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2104CB281DC30D004D557B /* PBXTargetDependency */,
+			);
+			name = CalicoUITests;
+			productName = CalicoUITests;
+			productReference = 0A2104C9281DC30D004D557B /* CalicoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2104A7281DC30C004D557B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0A2104AE281DC30C004D557B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0A2104BE281DC30D004D557B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0A2104AE281DC30C004D557B;
+					};
+					0A2104C8281DC30D004D557B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0A2104AE281DC30C004D557B;
+					};
+				};
+			};
+			buildConfigurationList = 0A2104AA281DC30C004D557B /* Build configuration list for PBXProject "Calico" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A2104A6281DC30C004D557B;
+			productRefGroup = 0A2104B0281DC30C004D557B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2104AE281DC30C004D557B /* Calico */,
+				0A2104BE281DC30D004D557B /* CalicoTests */,
+				0A2104C8281DC30D004D557B /* CalicoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2104AD281DC30C004D557B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2104BA281DC30D004D557B /* Preview Assets.xcassets in Resources */,
+				0A2104B7281DC30D004D557B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104BD281DC30D004D557B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104C7281DC30D004D557B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2104AB281DC30C004D557B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2104B5281DC30C004D557B /* ContentView.swift in Sources */,
+				0A2104B3281DC30C004D557B /* CalicoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104BB281DC30D004D557B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2104C4281DC30D004D557B /* CalicoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2104C5281DC30D004D557B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2104CE281DC30D004D557B /* CalicoUITests.swift in Sources */,
+				0A2104D0281DC30D004D557B /* CalicoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2104C1281DC30D004D557B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2104AE281DC30C004D557B /* Calico */;
+			targetProxy = 0A2104C0281DC30D004D557B /* PBXContainerItemProxy */;
+		};
+		0A2104CB281DC30D004D557B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2104AE281DC30C004D557B /* Calico */;
+			targetProxy = 0A2104CA281DC30D004D557B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2104D1281DC30D004D557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A2104D2281DC30D004D557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2104D4281DC30D004D557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calico/Preview Content\"";
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.Calico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A2104D5281DC30D004D557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calico/Preview Content\"";
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.Calico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A2104D7281DC30D004D557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.CalicoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calico.app/Calico";
+			};
+			name = Debug;
+		};
+		0A2104D8281DC30D004D557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.CalicoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calico.app/Calico";
+			};
+			name = Release;
+		};
+		0A2104DA281DC30D004D557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.CalicoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calico;
+			};
+			name = Debug;
+		};
+		0A2104DB281DC30D004D557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.CalicoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2104AA281DC30C004D557B /* Build configuration list for PBXProject "Calico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2104D1281DC30D004D557B /* Debug */,
+				0A2104D2281DC30D004D557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2104D3281DC30D004D557B /* Build configuration list for PBXNativeTarget "Calico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2104D4281DC30D004D557B /* Debug */,
+				0A2104D5281DC30D004D557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2104D6281DC30D004D557B /* Build configuration list for PBXNativeTarget "CalicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2104D7281DC30D004D557B /* Debug */,
+				0A2104D8281DC30D004D557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2104D9281DC30D004D557B /* Build configuration list for PBXNativeTarget "CalicoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2104DA281DC30D004D557B /* Debug */,
+				0A2104DB281DC30D004D557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2104A7281DC30C004D557B /* Project object */;
+}
