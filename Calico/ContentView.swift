@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            LinearGradient(colors: [Color("beige"), .yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
+            ScrollView {
+                Header()
+                Divider()
+                    .padding(30)
+                ListView()
+            }
+        }
     }
 }
 
@@ -19,3 +28,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

@@ -14,6 +14,9 @@
 		0A2104C4281DC30D004D557B /* CalicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104C3281DC30D004D557B /* CalicoTests.swift */; };
 		0A2104CE281DC30D004D557B /* CalicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104CD281DC30D004D557B /* CalicoUITests.swift */; };
 		0A2104D0281DC30D004D557B /* CalicoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104CF281DC30D004D557B /* CalicoUITestsLaunchTests.swift */; };
+		0A2104DD281DD093004D557B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104DC281DD093004D557B /* Header.swift */; };
+		0A2104DF281DD112004D557B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104DE281DD112004D557B /* ListView.swift */; };
+		0A2104E1281DD54D004D557B /* chalkHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2104E0281DD54D004D557B /* chalkHeadline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0A2104C9281DC30D004D557B /* CalicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2104CD281DC30D004D557B /* CalicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoUITests.swift; sourceTree = "<group>"; };
 		0A2104CF281DC30D004D557B /* CalicoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalicoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A2104DC281DD093004D557B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		0A2104DE281DD112004D557B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0A2104E0281DD54D004D557B /* chalkHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chalkHeadline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				0A2104B2281DC30C004D557B /* CalicoApp.swift */,
 				0A2104B4281DC30C004D557B /* ContentView.swift */,
+				0A2104DE281DD112004D557B /* ListView.swift */,
+				0A2104E0281DD54D004D557B /* chalkHeadline.swift */,
+				0A2104DC281DD093004D557B /* Header.swift */,
 				0A2104B6281DC30D004D557B /* Assets.xcassets */,
 				0A2104B8281DC30D004D557B /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2104DF281DD112004D557B /* ListView.swift in Sources */,
 				0A2104B5281DC30C004D557B /* ContentView.swift in Sources */,
+				0A2104DD281DD093004D557B /* Header.swift in Sources */,
+				0A2104E1281DD54D004D557B /* chalkHeadline.swift in Sources */,
 				0A2104B3281DC30C004D557B /* CalicoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
