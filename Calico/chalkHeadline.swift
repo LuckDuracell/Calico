@@ -14,6 +14,7 @@ struct chalkHeadline: View {
             .font(.system(.title3, design: .monospaced))
             .padding(.horizontal)
         Divider()
+            .opacity(0)
             .background(
                 Color.white.frame(width: UIScreen.main.bounds.width * 0.8, height: 1, alignment: .center)
                     .cornerRadius(15)

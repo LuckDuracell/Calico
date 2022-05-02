@@ -45,26 +45,11 @@ struct Header: View {
 
 struct Header_Previews: PreviewProvider {
     static var previews: some View {
-        Header()
-    }
-}
-
-struct fancyTitle: View {
-    let title: String
-    var body: some View {
-        HStack {
-            Text("\(title)")
-                .font(.system(.largeTitle, design: .monospaced))
-                .bold()
-                .foregroundColor(.white)
-                .padding()
-            Spacer()
-            Image(systemName: timeSymbol())
-                .resizable()
-                .frame(width: 55, height: 55, alignment: .center)
-                .foregroundColor(.white)
-                .padding()
-                .padding(.trailing, 25)
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(.all)
+            VStack {
+                Header()
+            }
         }
     }
 }
@@ -80,7 +65,7 @@ func timeSymbol() -> String {
     if time > night {
         output = "moon.zzz.fill"
     } else if time > evening {
-        output = "sunset.mill"
+        output = "sunset.fill"
     } else if time > noon {
         output = "sun.max.fill"
     } else if time > early {
